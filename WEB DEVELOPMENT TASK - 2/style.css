@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background-image: url(./img/img_1.jpg);
+  }
+  
+  #main-heading {
+    text-align: center;
+    color: #006400;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 200px 150px 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #todo-input, #todo-date {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
+  
+  .btn-delete, .btn-complete {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+  }
+  
+  .btn-delete {
+    background-color: rgb(87, 4, 4);
+  }
+
+  .btn-complete {
+    background-color: rgb(5, 87, 19);
+  }
+  
+  .btn-todo {
+    background-color: rgb(5, 119, 19);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+  }
+
+  .letter-text {
+    color: #00005e;
+    font-size: 25px;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
